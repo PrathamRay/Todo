@@ -1,0 +1,71 @@
+body{
+    background-color: #1f1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+}
+.todolist{
+    background-color:grey;
+    /* align-items: center; */
+}
+li{
+
+    margin:10px 10px;
+    height: 30%;
+    width: 82%;
+    background-color: aqua;
+    color: #1f1d1d;
+    border: 2px solid black; /* Adds a border of 2px width and black color */
+    border-radius: 10px; /* Rounds the edges of the border with a radius of 15px */
+    padding: 5px; 
+    display: flex; /* Use Flexbox */
+    justify-content: space-between;/* Distribute space between items*/
+    align-items: center; /* Center items vertically */
+    
+}
+.input-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    padding: 25px 50px;
+    text-align: center;
+}
+h1{
+    color:rgba(184, 166, 166, 0.938);
+}
+.container{
+    display:flex;
+    background-color: rgba(67, 63, 63, 0.979);
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+}
+ul,li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+#deletebtn{
+    
+    align-items: end;
+    margin-left: 10px;
+    background-color: rgba(255, 0, 0, 0.788);
+    color:white;
+}
+#todo-input{
+    margin-left: 40px;
+    height: 25px;
+    width:220px;
+    background-color:bisque;
+}
+#addtaskbtn{
+    height:25px;
+    margin-right: 20px;
+   background-color: rgb(50, 16, 86);
+   color:white; 
+}
